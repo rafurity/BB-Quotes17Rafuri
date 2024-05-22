@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6E4F792BFDB3010032C8A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E4F782BFDB3010032C8A2 /* Constants.swift */; };
+		1F6E4F7B2BFDBC210032C8A2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E4F7A2BFDBC210032C8A2 /* ViewModel.swift */; };
 		1FA77D002BF8C277003A4E1A /* BB_Quotes17RafuriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77CFF2BF8C277003A4E1A /* BB_Quotes17RafuriApp.swift */; };
 		1FA77D022BF8C277003A4E1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77D012BF8C277003A4E1A /* ContentView.swift */; };
 		1FA77D042BF8C27B003A4E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA77D032BF8C27B003A4E1A /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F6E4F782BFDB3010032C8A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F6E4F7A2BFDBC210032C8A2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		1FA77CFC2BF8C277003A4E1A /* BB Quotes17Rafuri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BB Quotes17Rafuri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA77CFF2BF8C277003A4E1A /* BB_Quotes17RafuriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BB_Quotes17RafuriApp.swift; sourceTree = "<group>"; };
 		1FA77D012BF8C277003A4E1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,8 +93,10 @@
 		1FA77D0E2BF8C31C003A4E1A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1FA77D172BF8D34F003A4E1A /* FetchController.swift */,
 				1FA77D132BF8CE27003A4E1A /* Quote.swift */,
 				1FA77D152BF8CEB5003A4E1A /* Character.swift */,
+				1F6E4F782BFDB3010032C8A2 /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,7 +104,7 @@
 		1FA77D102BF8C33C003A4E1A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				1FA77D172BF8D34F003A4E1A /* FetchController.swift */,
+				1F6E4F7A2BFDBC210032C8A2 /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 				1FA77D002BF8C277003A4E1A /* BB_Quotes17RafuriApp.swift in Sources */,
 				1FA77D182BF8D34F003A4E1A /* FetchController.swift in Sources */,
 				1FA77D162BF8CEB5003A4E1A /* Character.swift in Sources */,
+				1F6E4F792BFDB3010032C8A2 /* Constants.swift in Sources */,
+				1F6E4F7B2BFDBC210032C8A2 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
